@@ -20,17 +20,16 @@
  
         const domNode = document.getElementById('app');
  
-        function Header() {
+        function Header(props) {
         return <h1>Develop. Preview. Ship.</h1>;
         }
 
         function HomePage() {
         return (
         <div>
-          {/* Nesting the Header component */}
-          <Header />
+          <Header title="React" />
         </div>
-          );
+        );
         }
  
         const root = createRoot(domNode);
