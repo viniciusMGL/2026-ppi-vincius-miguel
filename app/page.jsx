@@ -3,7 +3,11 @@ import { useState } from 'react';
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>;
 }
- 
+
+export default function HomePage() {
+  // ...
+}
+
 function HomePage() {
   const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
  
